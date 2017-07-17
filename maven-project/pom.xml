@@ -35,7 +35,7 @@
     <configuration>
         <deploymentType>cloudhub</deploymentType>
         <muleVersion>${mule.version}</muleVersion> 
-        <username>$uid}</username>
+        <username>${uid}</username>
         <password>${pwd}</password>
 	 <workerType>Micro</workerType>
         <redeploy>true</redeploy>
